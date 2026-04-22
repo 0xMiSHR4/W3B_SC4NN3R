@@ -48,9 +48,9 @@ pip install -r requirements.txt
 
 **`requirements.txt`:**
 ```
-requests>=2.28.0
-beautifulsoup4>=4.11.0
-pyfiglet>=0.8.0
+requests
+beautifulsoup4
+pyfiglet
 ```
 
 ---
