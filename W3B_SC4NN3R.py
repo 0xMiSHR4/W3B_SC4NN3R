@@ -451,7 +451,7 @@ if __name__ == "__main__":
     output_file = re.sub(r"[^\w]", "_", target) + ".txt"
     output_path = os.path.join(os.path.dirname(__file__), output_file)
 
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write("=" * 60 + "\n")
         f.write("  W3B_SC4NN3R — Vulnerability Report\n")
         f.write("=" * 60 + "\n")
