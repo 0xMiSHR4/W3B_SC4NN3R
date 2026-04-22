@@ -1,4 +1,3 @@
-pyfiglet
 requests
-argparse
 beautifulsoup4
+pyfiglet
